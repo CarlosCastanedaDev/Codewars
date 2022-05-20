@@ -7,4 +7,3 @@ function sumMix(x){
     let sum = numArray.reduce((acc, i) => acc + i, 0)
     return sum
   }
-

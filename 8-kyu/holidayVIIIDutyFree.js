@@ -7,6 +7,6 @@ For example, if a bottle cost £10 normally and the discount in duty free was 10
 All inputs will be integers. Please return an integer. Round down. */
 
 function dutyFree(normPrice, discount, hol){
-
-}
-
+    let dutyPrice = normPrice * (discount * .01)
+    return Math.floor(hol/dutyPrice)
+  }

@@ -8,7 +8,7 @@ Note: Of course you can't do half a fold. You should know what this means ;P
 Also, if somebody is giving you a negative distance, it's clearly bogus and you should yell at them by returning null (or whatever equivalent in your language). In Shell please return None. In C and COBOL please return -1. */
 
 function foldTo(distance) {
-  if (distance <= 0) return null;
+  if (distance < 0) return null;
   let counter = 0;
   for (let i = 0.0001; i < distance; i *= 2) counter += 1;
   return counter;

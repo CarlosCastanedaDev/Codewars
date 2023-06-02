@@ -18,7 +18,7 @@ const sumSquareEvenRootOdd = (ns) => {
 
 // Refactored Code
 
-const sumSquareEvenRootOdd = (ns) => {
+const sumSquareEvenRootOdd2 = (ns) => {
   return +ns
     .map((n) => (n % 2 === 0 ? Math.pow(n, 2) : Math.sqrt(n)))
     .reduce((a, b) => a + b)
